@@ -12,7 +12,9 @@ import pickle
 
 # loading the saved model
 
-loaded_model = pickle.load(open("C:/Users/johnb/OneDrive/Desktop/StrokeML_Model/trained_model (1).pkl", 'rb'))
+loaded_model = pickle.load(open("https://github.com/anayo01/Machine_learning_deployment/blob/main/trained_model%20(1).pkl", 'rb'))
+
+#https://github.com/anayo01/Machine_learning_deployment/blob/main/trained_model%20(1).pkl
 
 
 
