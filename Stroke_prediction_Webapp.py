@@ -6,12 +6,12 @@ Created on Thu Oct  5 10:38:51 2023
 """
 import numpy as np
 import streamlit as st
-import pickle
+import joblib
 
 st.set_option('deprecation.showfileUploaderEncoding',False) 
 
 # loading the saved model
-loaded_model = pickle.load(open('trained_model.pkl', 'rb'))
+loaded_model = joblib.load('trained_model.pkl', 'rb'))
 
 
 
