@@ -7,14 +7,11 @@ Created on Thu Oct  5 10:38:51 2023
 import numpy as np
 import pickle
 import streamlit as st
-import joblib
-
-
 
 
 
 # loading the saved model
-loaded_model  = joblib.load('trained_model.sav')
+loaded_model  = pickle.load(open('trained_model.sav','rb'))
 
 
 
