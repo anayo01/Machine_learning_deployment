@@ -11,7 +11,8 @@ import joblib
 st.set_option('deprecation.showfileUploaderEncoding',False) 
 
 # loading the saved model
-loaded_model = joblib.load('trained_model.pkl', 'rb')
+loaded_model = joblib.load(open('trained_model.pkl', 'rb'))
+
 
 
 
