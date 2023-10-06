@@ -14,7 +14,7 @@ import joblib
 
 
 # loading the saved model
-loaded_model =model = loaded_model = joblib.load('trained_model.sav')
+loaded_model  = joblib.load('trained_model.sav')
 
 
 
